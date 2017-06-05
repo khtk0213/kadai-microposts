@@ -26,7 +26,7 @@ class UsersController < ApplicationController
     else
       flash.now[:danger] = 'ユーザの登録に失敗しました。'
       render :new
-   end #←足りなかったので挿入
+   end
   end
   
   def followings
